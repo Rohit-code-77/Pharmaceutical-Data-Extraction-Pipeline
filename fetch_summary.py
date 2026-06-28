@@ -48,7 +48,7 @@ def get_summary_from_google(company_name):
 
         time.sleep(2)
 
-        elements = driver.find_elements(By.CSS_SELECTOR, "div.Y3BBE")
+        elements = driver.find_elements(By.CSS_SELECTOR, "div.n6owBd.awi2gc")
 
         for el in elements:
             text = el.text.strip()
