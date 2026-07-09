@@ -35,5 +35,17 @@ pip install selenium webdriver-manager pandas
 - `companies.csv`: The input CSV file containing company names.
 - `company_summaries.csv`: The output CSV file containing the scraped summaries.
 
+## Results
+
+The scraper processed **101 company records** and extracted company summaries automatically using Selenium-based browser automation.
+
+| Metric | Value |
+|----------|----------|
+| Total Companies Processed | 101 |
+| Successful Extractions | 88 |
+| Failed Extractions | 13 |
+| Extraction Accuracy | 87.13% |
+| Approximate Execution Time | ~14 Minutes |
+
 ## Author
 - **Rohit Kadian**
